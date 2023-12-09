@@ -11,7 +11,6 @@ const Header = () => {
             <div className='logo'>
               <img src='./images/logo.png' alt='' />
             </div>
-            {/*<ul className='flexSB'>*/}
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
                 <a href='/'>Home</a>
